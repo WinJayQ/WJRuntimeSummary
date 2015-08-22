@@ -56,7 +56,7 @@ typedef struct objc_object *id;
 
 向一个Objective-C对象发送消息时，运行时库会根据实例对象的isa指针找到这个实例对象所属的类。Runtime库会在类的方法列表由super_class指针找到父类的方法列表直至根类NSObject中去寻找与消息对应的selector指向的方法。找到后即运行这个方法。
 
-![image](https://github.com/WinJayQ/WJRuntimeSummary/raw/master/WJRuntimeSummary/images/1.png) 
+![image](https://github.com/WinJayQ/WJRuntimeSummary/raw/master/WJRuntimeSummary/1.jpg) 
 
                          metaClass.png
                          
